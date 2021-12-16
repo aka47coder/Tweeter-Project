@@ -4,19 +4,31 @@
   "description": "A twitter clone by Lighthouse Labs for web bootcamp students to learn front-end dev skillz",
   "main": "server/index.js",
   "scripts": {
+    "sass": "sass sass:public/styles --watch --poll --no-source-map",
+    "compile:sass": "node-sass sass/main.scss  css/style.css -w",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/index.js",
-    "local": "./node_modules/.bin/nodemon --watch server -e js server/index.js"
+    "local": "nodemon --watch server -e js server/index.js"
   },
   "author": "Lighthouse Labs",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "body-parser": "^1.15.2",
     "chance": "^1.0.2",
-    "express": "^4.13.4",
+    "express": "^4.17.1",
     "md5": "^2.1.0"
   },
   "devDependencies": {
     "nodemon": "^1.9.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svetlandel/tweeter_project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/svetlandel/tweeter_project/issues"
+  },
+  "homepage": "https://github.com/svetlandel/tweeter_project#readme"
 }

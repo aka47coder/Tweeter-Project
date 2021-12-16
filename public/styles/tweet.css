@@ -1,0 +1,36 @@
+article > theader, article > tfooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+article theader i {
+  height: 20px;
+}
+
+tfooter .date {
+  font-size: 15px;
+}
+
+tfooter i:hover {
+  color: orangered;
+}
+
+article > div {
+  font-weight: bold;
+  border-bottom: 5px solid black;
+}
+
+article {
+  border: 3px solid black;
+  margin-top: 25px;
+  padding: 15px;
+  margin-bottom: 5px;
+}
+
+.user_id {
+  color: gray;
+}
+
+article:hover {
+  box-shadow: 5px 10px #888888;
+}

@@ -1,0 +1,22 @@
+header {
+  z-index:100;    
+  height: 400px;
+  width: 100vw;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+@media screen and (min-width: 1024px) {
+  #parent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+
+    header, main{ 
+      flex:1;
+    }  
+}

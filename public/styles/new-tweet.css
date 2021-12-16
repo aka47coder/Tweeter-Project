@@ -1,0 +1,45 @@
+form {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  font-family: "Bungee", cursive;
+  background-color: #4056A1;
+  color: #FFFFFF;
+}
+
+output {
+  font-family: "Bungee", cursive;
+  float: right;
+}
+
+form > label {
+  display: block;
+}
+
+form > textarea {
+  border: none;
+  border-bottom: 5px solid black;
+  width: 100%;
+  background: transparent;
+  line-height: 1;
+}
+
+#error {
+  display: none;
+  color: red;
+  border: 3px solid red;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  text-align: center;
+}
+
+form .warning {
+  color: orange;
+}
+
+form .exceeded {
+  color: red;
+}
