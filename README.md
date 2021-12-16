@@ -3,14 +3,12 @@
 Tweeter is a simple, single-page Twitter clone.
 
 The application shows existing tweets, the new tweets can also be added. 
-!["Screenshot of tweets"](https://github.com/svetlandel/tweeter_project/blob/master/docs/app_scr1.PNG)
+!["Screenshot of tweets"]https://github.com/aka47coder/Tweeter-Project/blob/master/newtweet.PNG
 
-!["Screenshot of the new tweet"](https://github.com/svetlandel/tweeter_project/blob/master/docs/writing_a_tweet.PNG)
-The form to compose tweets accepts tweets between 1 and 140 characters in length.
-If a tweet doesn't meet the length requirement, the corresponding form validation error will show up for the user.
-The newly sublitted tweets will show up within the same page.
-!["Screenshot of the form validation error"](https://github.com/svetlandel/tweeter_project/blob/master/docs/exceeded_limit.PNG)
-
+!["Screenshot of the new tweet"]
+https://github.com/aka47coder/Tweeter-Project/blob/master/newvalue.PNG
+!["Screenshot of the form validation error"]
+https://github.com/aka47coder/Tweeter-Project/blob/master/morelimt.PNG
 ## Getting Started
 
 1. [Create](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) a new repository using this repository as a template.
